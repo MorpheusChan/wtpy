@@ -14,6 +14,7 @@
     > - WtBtAnalyst.py	回测分析模块，主要是利用回测生成的数据，计算各项回测指标，并输出到`excel`文件
     > - WtCtaOptimizer  `CTA`优化器，主要是利用`multiprocessing`并行回测，并统计各项交易指标，最后将统计结果汇总输出到`csv`文件
 	> - WtHotPicker		国内期货换月规则辅助模块，支持从交易所网站页面爬取数据确定换月规则，也支持解析`datakit`每日收盘生成的snapshot.csv来确定换月规则
+    > - home test
 + wrapper子模块
 	> 该模块主要包含了所有和`C++`底层对接的接口模块
 	> - ContractLoader.py	主要用于通过`CTP`等接口加载基础的`commodities.json`和`contracts.json`文件
