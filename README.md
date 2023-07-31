@@ -50,6 +50,7 @@
 	> - WtBtEngine.py	回测引擎转换模块，主要封装底层接口调用
 	> - WtDtEngine.py	数据引擎转换模块，主要封装底层接口调用
 	> -	WtEngine.py		交易引擎转换模块，主要封装底层接口调用
+    > - test.py         测试
 
 
 # 如何让获取
